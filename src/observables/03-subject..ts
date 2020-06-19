@@ -21,7 +21,7 @@ const intervalo$ = new Observable<number>((subs) => {
 
 // 1.- Casteo multiple
 // 2.- Tambien es un Observer
-// 3.-  Tambien se puede manejar el next, error y complte
+// 3.- Tambien se puede manejar el next, error y complete
 const subject$ = new Subject();
 
 const suscripcion = intervalo$.subscribe(subject$);
