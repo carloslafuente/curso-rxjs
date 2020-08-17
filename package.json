@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "rxjs": "^6.5.3",
+    "rxjs": "^6.5.5",
     "typescript": "^3.6.3",
     "webpack": "^4.40.2",
     "webpack-dev-server": "^3.8.1"
@@ -15,7 +15,7 @@
     "webpack-cli": "^3.3.9"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --port=8081"
+    "start": "webpack-dev-server --mode development --open --port=8080"
   },
   "author": "",
   "license": "ISC"
